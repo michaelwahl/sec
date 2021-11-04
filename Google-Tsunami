@@ -1,0 +1,8 @@
+sudo apt install nmap
+sudo apt install ncrack
+sudo apt install docker.io
+sudo service docker start s
+sudo service docker status
+sudo docker run — name unauthenticated-jupyter-notebook -p 8888:8888 -d jupyter/base-notebook start-notebook.sh — NotebookApp.token=’’
+sudo apt install openjdk-11-jdk
+sudo bash -c “$(curl -sfL https://raw.githubusercontent.com/goo...)"
